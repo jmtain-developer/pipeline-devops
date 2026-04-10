@@ -47,7 +47,7 @@ jobs:
         run: pip install pytest
  
       - name: Ejecutar tests
-        run: pytest test_app.py -v
+        run: pytest test-app.py -v
  
   # ── JOB 3: DEPLOY (simulado) ──────────────────
   deploy:
