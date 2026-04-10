@@ -57,9 +57,9 @@ jobs:
  
     steps:
       - name: Simular despliegue en entorno staging
-              run: |
-          echo '✅ Build completado correctamente'
-          echo '✅ Todos los tests han pasado'
-          echo '🚀 Desplegando version 1.0.0 en staging...'
-          echo '✅ Despliegue completado'
+          run: |
+          echo 'Build completado correctamente'
+          echo 'Todos los tests han pasado'
+          echo 'Desplegando version 1.0.0 en staging...'
+          echo 'Despliegue completado'
 
