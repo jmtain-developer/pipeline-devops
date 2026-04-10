@@ -62,4 +62,17 @@ jobs:
           echo 'Todos los tests han pasado'
           echo 'Desplegando version 1.0.0 en staging...'
           echo 'Despliegue completado'
+  
+  # ── JOB 4: NOTIFY  ──────────────────
+  notify:
+    name: Notify resultado
+    runs-on: ubuntu-latest
+    needs: deploy
+ 
+    steps:
+      - name: Notificar estado final
+        run: |
+          echo 'Ha ido todo bien'          
+          echo 'Fin'
+
 
