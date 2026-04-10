@@ -58,10 +58,10 @@ jobs:
     steps:
       - name: Simular despliegue en entorno staging
         run: |
-          echo 'Build completado correctamente'
-          echo 'Todos los tests han pasado'
-          echo 'Desplegando version 1.0.0 en staging...'
-          echo 'Despliegue completado'
+          echo '✅ Build completado correctamente'
+          echo '✅ Todos los tests han pasado'
+          echo '🚀 Desplegando version 1.0.0 en staging...'
+          echo '✅ Despliegue completado'
   
   # ── JOB 4: NOTIFY  ──────────────────
   notify:
@@ -72,7 +72,10 @@ jobs:
     steps:
       - name: Notificar estado final
         run: |
-          echo 'Ha ido todo bien'          
-          echo 'Fin'
+          echo '✅ Build completado correctamente'
+          echo '✅ Todos los tests han pasado'
+          echo '🚀 Desplegando version 1.0.0 en staging...'
+          echo '✅ Despliegue completado'
+          echo '✅ Notificación completada'
 
 
